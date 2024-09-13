@@ -7,6 +7,6 @@ const app = express();
 app.use(express.static("frontend/public"));
 
 
-app.listen(3000, () => {
-    console.log("Listening on http://localhost:3000");
+app.listen(process.env.PORT, () => {
+    console.log(`Server is running on http://localhost/${process.env.PORT}`);
 });
