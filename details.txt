@@ -1,0 +1,11 @@
+Kirsten Nell u20780193 
+Position: 44
+
+Deliverable 1 github repository link:
+
+https://github.com/Kc-Nell/multimedia-220-project.git
+
+To run the React application, first install all packages (npm i)
+
+# docker build -t u20780193 .
+# docker run --name u20780193 -p 3005:3000 u20780193
